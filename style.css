@@ -22,16 +22,17 @@ img {
     background-color: magenta;
     color: white;
 }
+
 /*  */
 
 body {
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
+    /* font-family: sans-serif; */
     line-height: 1.5;
     background-color: dodgerblue;
     color: cyan;
     transition: 0.4s;
 }
-
 .theme-mode {
     background-color: black;
     color: grey;
@@ -67,6 +68,7 @@ body {
     align-items: center;
     justify-content: space-between;
     text-transform: uppercase;
+    padding: 0.5rem 0;
 }
 
 h1,
@@ -83,14 +85,17 @@ button#mode {
     border: none;
 }
 
-a {
+a:link,
+a:visited {
+    color: inherit;
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:active {
     color: white;
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 2px;
 }
 
 .bb {

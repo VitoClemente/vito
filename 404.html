@@ -26,6 +26,7 @@
 
         body {
             min-height: 100vh;
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -33,20 +34,29 @@
             background-color: dodgerblue;
             color: cyan;
         }
-        body>*{
+
+        body>* {
             margin-top: 1rem;
         }
-        a {
-            font: inherit;
+
+        a:link,
+        a:visited {
             color: inherit;
+            text-decoration: none;
+        }
+
+        a:hover,
+        a:active {
+            color: white;
+            text-decoration: underline;
             text-underline-offset: 2px;
         }
     </style>
 </head>
 
 <body>
-    <p>404 error - HTTP standard response code</p>
-    <p>page not found or file not found error message</p>
+    <p>404</p>
+    <p>page not found or file not found</p>
     <p>back to <a href="index.html">index</a></p>
 </body>
 
