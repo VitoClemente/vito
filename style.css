@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 14px;
     scroll-behavior: smooth;
     background-color: lawngreen;
 }
@@ -18,6 +18,71 @@ img {
     height: auto;
 }
 
+/*
+.img-box {
+    position: relative;
+    padding: 1rem;
+    overflow: hidden;
+    width: 70%;
+    margin-left: auto;
+    transition: all ease-in-out .3s;
+    margin-bottom: 1rem;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: all ease-in-out .5s;
+}
+
+.img-box:hover {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.img-box::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all ease-in-out .5s;
+}
+
+.img-box:hover::after,
+.img-box:hover,
+.img-box:hover img {
+    filter: none;
+    -webkit-filter: none;
+    mix-blend-mode: unset !important;
+    background: transparent;
+}
+
+@media (min-width: 576px) {
+    .img-box {
+        width: 30%;
+    }
+}
+
+.flat-retro {
+    background-color: #FCA300;
+}
+
+.flat-retro img {
+    mix-blend-mode: darken;
+    -webkit-filter: grayscale(100%) contrast(1.5);
+    filter: grayscale(100%) contrast(1.5);
+}
+
+.flat-retro::after {
+    background-color: #e23241;
+    mix-blend-mode: lighten;
+}
+*/
+
+/*  */
 ::selection {
     background-color: magenta;
     color: white;
@@ -33,6 +98,7 @@ body {
     color: cyan;
     transition: 0.4s;
 }
+
 .theme-mode {
     background-color: black;
     color: grey;
