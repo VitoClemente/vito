@@ -11,15 +11,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="top">
 
     <div class="page">
 
-        <header class="flex-sb bb">
-            <h1>Vito Clemente</h1>
-            <button id="mode" title="mode" onclick="themeMode()"><span class="hide">MODE</span><span></span></button>
+        <header class="space-b bb">
+            <a href="#">
+                <h1>Vito Clemente</h1>
+            </a>
+            <button id="mode" title="mode" onclick="themeMode()">MODE</button>
         </header>
-
+        <section>
+            <article class="about">
+                <p>Artist & Developer <br>based in Italy.</p>
+            </article>
+        </section>
         <nav>
             <ul>
                 <li>
@@ -38,40 +44,13 @@
         </nav>
 
         <section>
-            <article>
-                <p>Artist & Developer based in Italy. Check out my websites for more of my work.</p>
-                <!-- <div class="img-box flat-retro"><img src="vito.jpeg" />
-                </div> -->
-                <p>For commissions contact me at: vito.info@gmail.com</p>
+            <article class="contact">
+                <p>For commissions <br>contact me at: </p>
+                <a href="">vito.info@gmail.com</a>
             </article>
         </section>
-        <section>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, ipsa. Qui animi dolores sed. Omnis quas
-                eveniet officia! Cum laborum, illo unde enim repellendus harum distinctio similique recusandae
-                temporibus. Non quam iure ab, natus rerum, est assumenda corrupti sint atque libero adipisci quia
-                molestias sed facilis debitis esse vitae tenetur sapiente laboriosam nobis nemo. Obcaecati odit quas
-                vel, facilis amet vero quaerat nemo est mollitia, perspiciatis odio nam alias distinctio unde eveniet
-                voluptatibus deleniti. Nihil sint, doloribus quas facere numquam nam voluptatem cum odit quis neque fuga
-                sapiente repudiandae id sequi doloremque expedita quisquam dolorum? Earum harum reiciendis placeat sint.
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolores ipsa sint commodi? Magnam
-                repellendus, suscipit cum, est explicabo, fugiat vero ducimus possimus dolore praesentium beatae
-                excepturi pariatur? Alias at suscipit saepe deleniti animi, eveniet nihil obcaecati tempore vero,
-                laboriosam quia esse earum unde iusto nam distinctio cum optio ex. Facere sapiente dolorem, hic autem
-                corporis maiores sint qui necessitatibus aut ratione deleniti eos accusamus maxime nihil quos blanditiis
-                magni quis facilis voluptate. Eveniet perferendis ab at expedita fugit itaque doloremque ipsa, dicta
-                dignissimos odio optio eos. Enim voluptatum praesentium ut pariatur architecto culpa iusto rerum fugit
-                aperiam fugiat non, assumenda voluptate doloremque? Natus soluta debitis laborum rerum ducimus quidem
-                voluptatum sit? Autem quasi dolore nulla, sapiente sed et impedit corrupti tempore saepe dolor velit
-                magni non quibusdam consequatur. Quod ratione necessitatibus consequuntur laboriosam suscipit accusamus
-                a nulla odio neque quibusdam tempora distinctio, non fuga fugiat? Est minus provident assumenda dolore
-                quidem? Repellendus commodi placeat, dolorem est provident tempore delectus quo magnam eum, nisi
-                pariatur rerum culpa. Nemo minus unde incidunt molestiae provident dolor ratione adipisci mollitia
-                necessitatibus error eos nesciunt, aliquam totam odit repellat sequi delectus nobis maxime iusto
-                doloribus accusantium? Deserunt ea saepe quasi, iure nisi aperiam vero?</p>
-        </section>
 
-        <footer class="flex-sb bt">
+        <footer class="space-b bt">
             <div>&copy; 2022 &dash; Vito</div>
             <a href="#top" class="top">top</a>
         </footer>
@@ -80,8 +59,8 @@
 
     <script>
         function themeMode() {
-            var element = document.body;
-            element.classList.toggle("theme-mode");
+            var elementBody = document.body;
+            elementBody.classList.toggle("body-mode");
         }
     </script>
 </body>
